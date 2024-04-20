@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "termin-catcher"
+version = "0.1.0"
+description = ""
+authors = ["Aleksei Kshumanev <kshumanev.aleksei@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+playwright = "^1.41.2"
+pytest = "^8.0.0"
+pytest-playwright = "^0.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
