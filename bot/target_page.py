@@ -4,7 +4,7 @@ from bot.utils.screenshots_utils import ScreenshotsUtils
 from bot.utils.time_utils import TimeUtils
 
 START_URL: str = "https://tevis.ekom21.de/stdar/select2?md=3"
-PATH_TO_SCREENSHOTS: str = "/Users/vmoloko/Desktop/bot_data"
+PATH_TO_SCREENSHOTS: str = "/Users/vmoloko/Desktop/termin-catcher-data"
 
 
 def open_page_and_check_if_termins_are_available(playwright: Playwright) -> bool:

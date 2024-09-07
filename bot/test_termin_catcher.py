@@ -13,6 +13,7 @@ def test_catch_termin(playwright: Playwright):
             print("There are termins!!!")
             TimeUtils.sleep_minutes(20)  # do not close browser window, to be able to book a termin manually
         else:
+            print("There are no termins...")
             # SpeechUtils.say("No termins. What do you expect?")  # uncomment only for the sound test
             pass
     except Exception as e:

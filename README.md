@@ -34,7 +34,7 @@ Use the following template:
 ```
 Example:
 ```
-05 0 * * 7 /Users/vmoloko/Library/Caches/pypoetry/virtualenvs/termin-catcher-gxpHoPb2-py3.12/bin/python -s /Users/vmoloko/Projects/termin-catcher/bot/test_termin_catcher.py >> /Users/vmoloko/Desktop/termin-catcher-data/log.txt 2>&1
+05 0 * * 7 /Users/vmoloko/Library/Caches/pypoetry/virtualenvs/termin-catcher-gxpHoPb2-py3.12/bin/pytest -s /Users/vmoloko/Projects/termin-catcher/bot/test_termin_catcher.py >> /Users/vmoloko/Desktop/termin-catcher-data/log.txt 2>&1
 ```
 ### Some schedule mode peculiarities
 On macOS, for example, cron doesn't work either when the lid is closed, or with an open lid but a locked screen.
@@ -43,7 +43,7 @@ So if you want the script to run:
 * disable all the automatic sleeps and locks,
 * do not close the lid,
 * adjust the brightness to minimum,
-* adjust the sound so you are not too frightened at night (you will be anyway),
+* adjust the sound, so you are not too frightened at night (you will be anyway),
 
 and then it will work out. 
 
